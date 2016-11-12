@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "umd",
+        "target": "es5",
+		"moduleResolution": "node",
+        "noImplicitAny": true,
+        "sourceMap": true,
+		"noEmitHelpers": true,
+		"outDir": "dist",
+		"rootDir": ".",
+		"baseUrl": "./",
+		"paths": {
+			"test-intern-project/*": [
+				"./src/*"
+			]
+		},
+		"types": [ "intern" ]
+    },
+	"include": [
+		"./tests/**/*.ts"
+	]
+}
