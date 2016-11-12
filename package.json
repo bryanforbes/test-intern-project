@@ -16,8 +16,8 @@
     "build": "tsc",
     "clean": "run-p clean:coverage clean:dist",
     "clean:coverage": "rimraf ./html-report",
-    "clean:dist": "rimraf ./dist",
+    "clean:dist": "rimraf ./_build",
     "pretest:unit": "run-s build",
-    "test:unit": "intern-client config=dist/tests/intern reporters=Console reporters=LcovHtml"
+    "test:unit": "intern-client config=_build/tests/intern reporters=Console reporters=LcovHtml"
   }
 }

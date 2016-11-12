@@ -1,4 +1,4 @@
-export const destination = './dist/';
+export const destination = './_build/';
 
 export const environments: any[] = [
 	{ browserName: 'chrome' }
@@ -26,4 +26,4 @@ export const suites: string[] = [ 'tests/unit/all' ];
 
 export const functionalSuites: string[] = [ 'tests/functional/all' ];
 
-export const excludeInstrumentation = /^(?:dist\/tests|node_modules)\//;
+export const excludeInstrumentation = /^(?:_build\/tests|node_modules)\//;

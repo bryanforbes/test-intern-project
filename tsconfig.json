@@ -6,7 +6,7 @@
         "noImplicitAny": true,
         "sourceMap": true,
 		"noEmitHelpers": true,
-		"outDir": "dist",
+		"outDir": "_build",
 		"rootDir": ".",
 		"baseUrl": "./",
 		"paths": {
